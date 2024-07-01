@@ -140,6 +140,9 @@ class LLJSPromise {
 
 }
 
+
+// ** TESTING CODE ** // 
+
 LLJSPromise.resolve = value => new LLJSPromise(resolve => resolve(value));
 LLJSPromise.reject = value => new LLJSPromise((_, reject) => reject(value));
 
